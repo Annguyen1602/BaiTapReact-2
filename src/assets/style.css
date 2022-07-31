@@ -1,29 +1,38 @@
-.test-glasses{
-    background: url(../assets/img/glassesImage/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.test-glasses {
+  background: url(../assets/img/glassesImage/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.img-left{
-    position: relative;
+.img-left {
+  position: relative;
 }
-.try{
-    position: absolute;
-    height: 50px;
-    width: 168px;
-    top: 108px;
-    left: 200px;
+.cover {
+  position: relative;
+}
+.cover .info {
+  position: absolute;
+  height: 145px;
+  width: 328px;
+  top: 255px;
+  left: 154px;
+  text-align: left;
+}
 
+.try {
+  position: absolute;
+  height: 50px;
+  width: 168px;
+  top: 108px;
+  left: 200px;
 }
-@media screen and (min-width:992px){
-    .try{
-        left: 155px;
-    }
-    
+@media screen and (min-width: 992px) {
+  .try {
+    left: 155px;
+  }
 }
-@media screen and (min-width:1400px){
-    .try{
-        left: 245px;
-    }
-    
+@media screen and (min-width: 1400px) {
+  .try {
+    left: 245px;
+  }
 }
