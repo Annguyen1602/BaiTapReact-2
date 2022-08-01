@@ -140,7 +140,7 @@ export default class TestGlasses extends Component {
                 <img
                   src={this.state.glassCurrent.url}
                   alt="..."
-                  className="try"
+                  className="try opacity-75"
                 />
               </div>
               <div className="col-6 img-left text-center">
